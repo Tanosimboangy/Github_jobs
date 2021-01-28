@@ -31694,8 +31694,7 @@ function App() {
       dispatch = _useContext.dispatch;
 
   var data = state.data;
-  console.log(data);
-  return /*#__PURE__*/_react.default.createElement("h1", null, "Hello jacquit");
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("h1", null, /*#__PURE__*/_react.default.createElement("b", null, "Github"), " Jobs"));
 }
 
 var _default = App;
@@ -35825,7 +35824,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52713" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55199" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
